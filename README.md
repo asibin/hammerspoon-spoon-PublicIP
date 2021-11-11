@@ -1,4 +1,4 @@
-# PublicIP
+# Hammerspoon Spoon - PublicIP
 
 ![image](https://user-images.githubusercontent.com/8343240/141217557-74630592-670e-47da-85a0-b615ecdad097.png)
 
