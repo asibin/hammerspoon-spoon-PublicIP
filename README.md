@@ -17,13 +17,13 @@ them for making this possible. Please consider supporting them by subscribing to
 ## How to install
 Checkout this repository into your Spoons directory (assuming you are using default spoons path):
 
-```
+```bash
 git clone https://github.com/asibin/hammerspoon-spoon-PublicIP.git ~/.hammerspoon/Spoons/PublicIP.spoon
 ```
 
 In your Hammerspoon config file add:
 
-```
+```lua
 hs.loadSpoon("PublicIP")
 ```
 Reload you Hammespoon config if you don't have auto-reload.
@@ -32,7 +32,7 @@ Reload you Hammespoon config if you don't have auto-reload.
 ## Example configuration for dynamic refreshes:
 In case you want to watch for IPv4 address changes and auto refresh after loading spoon add:
 
-```
+```lua
 function networkChangedCallback(store, keys)
     hs.timer.doAfter(10, function()
     spoon.PublicIP.refreshIP()
