@@ -1,5 +1,8 @@
 # PublicIP
 
+![image](https://user-images.githubusercontent.com/8343240/141217557-74630592-670e-47da-85a0-b615ecdad097.png)
+
+
 Simple spoon for fetching your current public IP address and geolocation and displaying it in menubar.
 Menubar is displaying IP, ISP and country. Useful if you are switching between VPNs
 at regular basis or are just interested in your current ISP on public WIFI. Can be manually
