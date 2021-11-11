@@ -18,7 +18,7 @@ them for making this possible. Please consider supporting them by subscribing to
 Checkout this repository into your Spoons directory (assuming you are using default spoons path):
 
 ```
-git clone https://github.com/asibin/hammerspoon-spoon-PublicIP.git ~/.hammerspoon/Spoons/PublicIp.spoon
+git clone https://github.com/asibin/hammerspoon-spoon-PublicIP.git ~/.hammerspoon/Spoons/PublicIP.spoon
 ```
 
 In your Hammerspoon config file add:
