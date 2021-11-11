@@ -41,7 +41,7 @@ end
 
 n = hs.network.configuration.open()
 n:monitorKeys("State:/Network/Service/.*/IPv4", true)
-n:setCallback(cb)
+n:setCallback(networkChangedCallback)
 n:start()
 ```
 
