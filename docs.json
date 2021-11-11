@@ -1,0 +1,79 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "desc" : "Simple spoon for fetching your current public IP address and geolocation and displaying it in menubar.",
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "Constructor" : [
+
+    ],
+    "doc" : "Simple spoon for fetching your current public IP address and geolocation and displaying it in menubar.\nMenubar is displaying IP, ISP and country. Useful if you are switching between VPNs\nat regular basis or are just interested in your current ISP on public WIFI. Can be manually\nrefreshed by clicking on menubar widget or can be auto-refreshed each time network IP4 is \nchanged.\n\nThis spoon uses free geolocation service provided by awesome ip-api.com. Big thanks to \nthem for making this possible. Please consider supporting them by subscribing to their PRO tier. --- Commercial use of ip-api.com service is prohibited without PRO service plan. Use at your own\nrisk.\n\nExample configuration:\n```\nhs.loadSpoon(\"PublicIP\")\n```\n\nIn case you want to watch for IPv4 address changes and auto refresh after loading spoon add:\n```\nfunction networkChangedCallback(store, keys)\n    hs.timer.doAfter(10, function()\n    spoon.PublicIP.refreshIP()\n  end)\nend\n\nn = hs.network.configuration.open()\nn:monitorKeys(\"State:\/Network\/Service\/.*\/IPv4\", true)\nn:setCallback(cb)\nn:start()\n```\n\nDownload: []()",
+    "Method" : [
+      {
+        "doc" : "Refreshes IP information and redraws menubar widget",
+        "stripped_doc" : [
+          "Refreshes IP information and redraws menubar widget"
+        ],
+        "name" : "refreshIP",
+        "def" : "PublicIP:refreshIP()",
+        "notes" : [
+
+        ],
+        "signature" : "PublicIP:refreshIP()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "desc" : "Refreshes IP information and redraws menubar widget",
+        "parameters" : [
+
+        ]
+      }
+    ],
+    "Command" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "items" : [
+      {
+        "doc" : "Refreshes IP information and redraws menubar widget",
+        "stripped_doc" : [
+          "Refreshes IP information and redraws menubar widget"
+        ],
+        "name" : "refreshIP",
+        "def" : "PublicIP:refreshIP()",
+        "notes" : [
+
+        ],
+        "signature" : "PublicIP:refreshIP()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "desc" : "Refreshes IP information and redraws menubar widget",
+        "parameters" : [
+
+        ]
+      }
+    ],
+    "name" : "PublicIP"
+  }
+]
