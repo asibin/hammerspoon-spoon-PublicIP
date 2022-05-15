@@ -48,3 +48,7 @@ n:start()
 In this case Hammerspoon will wait 10s before refreshing IP after IPv4 address changes to give the time
 for WIFI connection to establish. In order to avoid using timers you can use hs.timer.doUntil to force retires
 until fetch succeeds.
+
+## TODO
+- Allow configuration of wanted segments (ip, isp, country) to accommodate M1 Macs with notch since MacOS is hiding whole widget if it "touches" the notch
+- Allow configuration to run widget in "compact" mode where it would be represented as a single icon in menubar and when clicked will open a "dropdown" with all information
