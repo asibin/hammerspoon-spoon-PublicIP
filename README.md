@@ -21,7 +21,7 @@ Checkout this repository into your Spoons directory (assuming you are using defa
 git clone https://github.com/asibin/hammerspoon-spoon-PublicIP.git ~/.hammerspoon/Spoons/PublicIP.spoon
 ```
 
-In your Hammerspoon config file add:
+In your Hammerspoon config (`~/.hammerspoon/init.lua` if default) file add:
 
 ```lua
 hs.loadSpoon("PublicIP")
