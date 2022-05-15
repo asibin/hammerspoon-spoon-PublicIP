@@ -30,7 +30,7 @@ Reload you Hammespoon config if you don't have auto-reload.
 
 
 ## Example configuration for dynamic refreshes
-In case you want to watch for IPv4 address changes and auto refresh after loading spoon add:
+In case you want to watch for IPv4 address changes and auto refresh widget add this code block to your Hammerspoon confing file after loading spoon:
 
 ```lua
 function networkChangedCallback(store, keys)
